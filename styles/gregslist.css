@@ -42,7 +42,7 @@ a {
     padding: 0 6px;
 }
 .search input {
-    font-size: 15px;
+    font-size: 16px;
     width: 400px;
     height: 30px;
     font-weight: 500;
@@ -65,4 +65,24 @@ h2 {
     height: 30px;
     padding: 2px 6px 3px 6px;
     vertical-align: bottom;
+}
+.search {
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+.pages {
+    display: inline-block;
+    font-size: 0px;
+    border-radius: 3px;
+    border: 1px solid #DDDDDD;
+    /* padding: 10px 20px; */
+}
+.page-show {
+    border-right: 1px solid #DDDDDD;
+    border-left: 1px solid #DDDDDD;
+}
+.change-page, .page-show {
+    font-size: 16px;
+    display: inline-block;
+    padding: 8px 25px;
 }

@@ -22,7 +22,7 @@ a {
     border-bottom: 1px solid #DDDDDD;
     height: 42px;
 }
-.logo {
+.logo { 
     display: inline-block;
 }
 .logo h1 {
@@ -41,10 +41,6 @@ a {
     font-size: 18px;
     padding: 0 6px;
 }
-.search {
-    margin-top: -20px;
-    left: 50px;
-}
 .search input {
     font-size: 15px;
     width: 400px;
@@ -52,13 +48,12 @@ a {
     font-weight: 500;
     padding: 0px 5px 0 10px;
 }
-.search .search-jobs, 
+.search .search-input, 
 .search .search-button {
   display: inline-block;
   border: 1px solid #DDDDDD;
   border-radius: 3px;
 }
-
 h2 {
     display: block;
     font-size: 16px;

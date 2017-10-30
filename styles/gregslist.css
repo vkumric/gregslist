@@ -13,6 +13,9 @@ nav {
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 .navbar-logo {
     background-color: #EEEEEE;
     top: 0;
@@ -75,14 +78,34 @@ h2 {
     font-size: 0px;
     border-radius: 3px;
     border: 1px solid #DDDDDD;
-    /* padding: 10px 20px; */
+    margin-bottom: 15px;
 }
 .page-show {
     border-right: 1px solid #DDDDDD;
     border-left: 1px solid #DDDDDD;
+    color: black;
 }
 .change-page, .page-show {
     font-size: 16px;
     display: inline-block;
     padding: 8px 25px;
+}
+.change-page:visited {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+    font-size: 16px;
+    margin-left: -48px;
+    padding-top: 16px;
+}
+span {
+    color: #999;
+}
+.listing-date {
+    padding: 0px 8px;
+}
+.job-link {
+    font-weight: 800;
+    padding-right: 7px;
 }

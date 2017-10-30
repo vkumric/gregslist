@@ -1,2 +1,0 @@
-# gregslist
-Project for Thinkful
